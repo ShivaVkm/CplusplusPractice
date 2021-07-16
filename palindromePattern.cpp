@@ -6,17 +6,22 @@ int main(){
     for(int i=1;i<=n;i++){
         int j;
         for(j=1;j<=n-i;j++){
-            cout<<" ";
+            cout<<"  ";
         }
         int k=i;
         for(;j<=n;j++){
-            cout<<k--;
+            cout<<k--<<" ";
         }
         k=2;
         for(;j<=n+i-1;j++){
-            cout<<k++;
+            cout<<k++<<" ";
         }
         cout<<endl;
     }
     return 0;
 }
+
+
+
+
+

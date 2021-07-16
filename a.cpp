@@ -1,21 +1,26 @@
-#include<bits/stdc++.h>
-using namespace std;
-int sum(int n){
-    int ans = 0;
-    for(int i=1; i<=n; i++)
-        ans += 1;
-    return ans;
+// #include<bits/stdc++.h>
+// using namespace std;
+// int sum(int n){
+//     int ans = 0;
+//     for(int i=1; i<=n; i++)
+//         ans += 1;
+//     return ans;
     
     
-}
-int main(){
+// }
+// int main(){
 
-    int n;
-    cin>>n;
-    cout<<sum(n)<<endl;
-    return 0;
+//     int n;
+//     cin>>n;
+//     cout<<sum(n)<<endl;
+//     return 0;
     
-}
+// }
+
+
+
+
+
 
 // #include<iostream>
 // using namespace std;
@@ -38,3 +43,24 @@ int main(){
 // }
 
 
+
+
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1; i<=n; i++)
+    {
+        for(int j=1; j<=i; j++)
+        {
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
